@@ -1,0 +1,5 @@
+def build_byte_tower(height):
+    for i in range(height):
+        print("Byte" * (i + 1))
+
+build_byte_tower(5)
